@@ -3,7 +3,6 @@ const header = document.querySelector('.header');
 const heroText = document.querySelector('.hero-content');
 
 
-
 document.fonts.ready.then(() => {
   console.log("✅ Fonts fully loaded");
 });

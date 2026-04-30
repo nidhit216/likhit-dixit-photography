@@ -1,58 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="language" content="English">
-  <meta http-equiv="Content-Language" content="en">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Likhit Dixit Photography</title>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="language" content="English" />
+      <meta http-equiv="Content-Language" content="en" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Likhit Dixit Photography</title>
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+      <link rel="stylesheet" href="styles.css" />
+   </head>
 
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css"/>
-</head>
+   <body>
+      <header class="header">
+         <div class="header-inner">
+            <div class="header-spacer"></div>
+            <a href="index.html" class="logo">LIKHIT DIXIT PHOTOGRAPHY</a>
+            <nav class="nav">
+               <a href="about.html">ABOUT</a>
+               <a href="contact.html">CONTACT</a>
+            </nav>
+         </div>
+      </header>
 
-<body>
+      <!-- HERO -->
+      <section class="hero">
+         <div class="video-container">
+            <video autoplay muted loop playsinline>
+               <source src="assets/home/hero.mp4" type="video/mp4" />
+            </video>
+         </div>
 
-<header class="header">
-  <h2></h2>
-  <a href="#" class="logo">LIKHIT DIXIT PHOTOGRAPHY</a>
-</header>
+         <div class="overlay"></div>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="video-container">
-      <video autoplay muted loop playsinline>
-        <source src="assets/hero.mp4" type="video/mp4" />
-      </video>
-    </div>
+         <div class="hero-content">
+            <h1>
+               LIKHIT DIXIT<br />
+               <span>PHOTOGRAPHY</span>
+            </h1>
+         </div>
+      </section>
 
-    <div class="overlay"></div>
+      <section class="portfolio">
+         <div class="grid">
+            <div class="card">
+               <img src="assets/home/product.jpg" alt="Product" />
+               <div class="card-title">PRODUCT</div>
+            </div>
 
-    <div class="hero-content">
-      <h1>LIKHIT DIXIT<br />
-    <span>PHOTOGRAPHY</span></h1>
-    </div>
-  </section>
+            <a href="food.html" class="card">
+               <img src="assets/home/food.jpg" alt="Food" />
+               <div class="card-title">FOOD</div>
+            </a>
 
+            <a href="landscapes.html" class="card">
+               <img src="assets/home/landscape.jpg" alt="Landscapes" />
+               <div class="card-title">LANDSCAPES</div>
+            </a>
 
+            <div class="card">
+               <img src="assets/home/wildlife.jpg" alt="Wildlife" />
+               <div class="card-title">WILDLIFE</div>
+            </div>
+         </div>
+      </section>
 
-  <!-- SCROLL AREA -->
-  <section class="content"></section>
+      <footer class="footer">
+         <div class="footer-left">
+            © 2026 Likhit Dixit Photography. All rights reserved.
+         </div>
 
-<footer class="footer">
-  <div class="footer-left">
-    © 2026 Likhit Dixit. All rights reserved.
-  </div>
-
-  <div class="footer-right">
-    Made with ❤️ by 
-    <a href="https://nidhithakkar.com" target="_blank" rel="noopener noreferrer" class="footer-link">
-      Nidhi
-    </a>
-  </div>
-</footer>
-
-  <script src="script.js"></script>
-  
-</body>
+         <div class="footer-right">
+            Made with ❤️ by
+            <a href="https://nidhithakkar.com" target="_blank" rel="noopener noreferrer" class="footer-link">Nidhi</a>
+         </div>
+      </footer>
+      <script src="script.js"></script>
+   </body>
 </html>
